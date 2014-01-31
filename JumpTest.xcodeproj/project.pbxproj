@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A356977E1885F0E3009EA4C3 /* Platform.m in Sources */ = {isa = PBXBuildFile; fileRef = A356977D1885F0E3009EA4C3 /* Platform.m */; };
 		A35BA099187CBAB9007EAC48 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A35BA098187CBAB9007EAC48 /* Cocoa.framework */; };
 		A35BA09B187CBAB9007EAC48 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A35BA09A187CBAB9007EAC48 /* SpriteKit.framework */; };
 		A35BA0A5187CBAB9007EAC48 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A35BA0A3187CBAB9007EAC48 /* InfoPlist.strings */; };
@@ -21,6 +22,10 @@
 		A35BA0BF187CBAB9007EAC48 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A35BA098187CBAB9007EAC48 /* Cocoa.framework */; };
 		A35BA0C7187CBAB9007EAC48 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A35BA0C5187CBAB9007EAC48 /* InfoPlist.strings */; };
 		A35BA0C9187CBAB9007EAC48 /* JumpTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A35BA0C8187CBAB9007EAC48 /* JumpTestTests.m */; };
+		A36EF7F91898685B00C20B02 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = A36EF7F81898685B00C20B02 /* Constants.m */; };
+		A3A93DB1187DBE380065772C /* Jumper.m in Sources */ = {isa = PBXBuildFile; fileRef = A3A93DB0187DBE380065772C /* Jumper.m */; };
+		A3C7F039188F2EE000CB72E9 /* Field-landscape.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A3C7F038188F2EE000CB72E9 /* Field-landscape.jpg */; };
+		A3C7F03B188F321D00CB72E9 /* aang_air_attack_by_senshisprite-d49amm9.gif in Resources */ = {isa = PBXBuildFile; fileRef = A3C7F03A188F321D00CB72E9 /* aang_air_attack_by_senshisprite-d49amm9.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A356977C1885F0E3009EA4C3 /* Platform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Platform.h; sourceTree = "<group>"; };
+		A356977D1885F0E3009EA4C3 /* Platform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Platform.m; sourceTree = "<group>"; };
 		A35BA095187CBAB9007EAC48 /* JumpTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JumpTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A35BA098187CBAB9007EAC48 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		A35BA09A187CBAB9007EAC48 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
@@ -57,6 +64,12 @@
 		A35BA0C4187CBAB9007EAC48 /* JumpTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JumpTestTests-Info.plist"; sourceTree = "<group>"; };
 		A35BA0C6187CBAB9007EAC48 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A35BA0C8187CBAB9007EAC48 /* JumpTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JumpTestTests.m; sourceTree = "<group>"; };
+		A36EF7F71898685B00C20B02 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		A36EF7F81898685B00C20B02 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		A3A93DAF187DBE380065772C /* Jumper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Jumper.h; sourceTree = "<group>"; };
+		A3A93DB0187DBE380065772C /* Jumper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Jumper.m; sourceTree = "<group>"; };
+		A3C7F038188F2EE000CB72E9 /* Field-landscape.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Field-landscape.jpg"; sourceTree = "<group>"; };
+		A3C7F03A188F321D00CB72E9 /* aang_air_attack_by_senshisprite-d49amm9.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "aang_air_attack_by_senshisprite-d49amm9.gif"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,14 +137,22 @@
 		A35BA0A0187CBAB9007EAC48 /* JumpTest */ = {
 			isa = PBXGroup;
 			children = (
-				A35BA0AC187CBAB9007EAC48 /* MainMenu.xib */,
-				A35BA0AE187CBAB9007EAC48 /* MyScene.m */,
-				A35BA0B0187CBAB9007EAC48 /* MyScene.h */,
-				A35BA0B1187CBAB9007EAC48 /* AppDelegate.m */,
 				A35BA0B3187CBAB9007EAC48 /* AppDelegate.h */,
-				A35BA0B4187CBAB9007EAC48 /* Spaceship.png */,
+				A35BA0B1187CBAB9007EAC48 /* AppDelegate.m */,
 				A35BA0B6187CBAB9007EAC48 /* Images.xcassets */,
+				A3C7F03A188F321D00CB72E9 /* aang_air_attack_by_senshisprite-d49amm9.gif */,
+				A3C7F038188F2EE000CB72E9 /* Field-landscape.jpg */,
+				A3A93DAF187DBE380065772C /* Jumper.h */,
+				A3A93DB0187DBE380065772C /* Jumper.m */,
+				A35BA0AC187CBAB9007EAC48 /* MainMenu.xib */,
+				A35BA0B0187CBAB9007EAC48 /* MyScene.h */,
+				A35BA0AE187CBAB9007EAC48 /* MyScene.m */,
+				A356977C1885F0E3009EA4C3 /* Platform.h */,
+				A356977D1885F0E3009EA4C3 /* Platform.m */,
+				A35BA0B4187CBAB9007EAC48 /* Spaceship.png */,
 				A35BA0A1187CBAB9007EAC48 /* Supporting Files */,
+				A36EF7F71898685B00C20B02 /* Constants.h */,
+				A36EF7F81898685B00C20B02 /* Constants.m */,
 			);
 			path = JumpTest;
 			sourceTree = "<group>";
@@ -241,6 +262,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3C7F039188F2EE000CB72E9 /* Field-landscape.jpg in Resources */,
+				A3C7F03B188F321D00CB72E9 /* aang_air_attack_by_senshisprite-d49amm9.gif in Resources */,
 				A35BA0B5187CBAB9007EAC48 /* Spaceship.png in Resources */,
 				A35BA0B7187CBAB9007EAC48 /* Images.xcassets in Resources */,
 				A35BA0A5187CBAB9007EAC48 /* InfoPlist.strings in Resources */,
@@ -266,7 +289,10 @@
 			files = (
 				A35BA0AF187CBAB9007EAC48 /* MyScene.m in Sources */,
 				A35BA0A7187CBAB9007EAC48 /* main.m in Sources */,
+				A3A93DB1187DBE380065772C /* Jumper.m in Sources */,
 				A35BA0B2187CBAB9007EAC48 /* AppDelegate.m in Sources */,
+				A356977E1885F0E3009EA4C3 /* Platform.m in Sources */,
+				A36EF7F91898685B00C20B02 /* Constants.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -471,6 +497,7 @@
 				A35BA0CE187CBAB9007EAC48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A35BA0CF187CBAB9007EAC48 /* Build configuration list for PBXNativeTarget "JumpTestTests" */ = {
 			isa = XCConfigurationList;
@@ -479,6 +506,7 @@
 				A35BA0D1187CBAB9007EAC48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
