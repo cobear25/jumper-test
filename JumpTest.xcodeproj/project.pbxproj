@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A324FD1918B19FFE00492059 /* LFCGzipUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = A324FD1618B19FFE00492059 /* LFCGzipUtility.m */; };
+		A324FD1A18B19FFE00492059 /* JSTileMap.m in Sources */ = {isa = PBXBuildFile; fileRef = A324FD1818B19FFE00492059 /* JSTileMap.m */; };
+		A324FD1E18B1A01200492059 /* level1.tmx in Resources */ = {isa = PBXBuildFile; fileRef = A324FD1B18B1A01200492059 /* level1.tmx */; };
+		A324FD1F18B1A01200492059 /* tileSet.png in Resources */ = {isa = PBXBuildFile; fileRef = A324FD1C18B1A01200492059 /* tileSet.png */; };
+		A324FD2018B1A01200492059 /* tileSet@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A324FD1D18B1A01200492059 /* tileSet@2x.png */; };
+		A324FD2718B1A11E00492059 /* koalio_stand.png in Resources */ = {isa = PBXBuildFile; fileRef = A324FD2118B1A11E00492059 /* koalio_stand.png */; };
+		A324FD2818B1A11E00492059 /* koalio_stand@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A324FD2218B1A11E00492059 /* koalio_stand@2x.png */; };
+		A324FD2918B1A11E00492059 /* replay@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A324FD2318B1A11E00492059 /* replay@2x.png */; };
+		A324FD2A18B1A11E00492059 /* replay.png in Resources */ = {isa = PBXBuildFile; fileRef = A324FD2418B1A11E00492059 /* replay.png */; };
+		A324FD2B18B1A11E00492059 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = A324FD2618B1A11E00492059 /* Player.m */; };
 		A356977E1885F0E3009EA4C3 /* Platform.m in Sources */ = {isa = PBXBuildFile; fileRef = A356977D1885F0E3009EA4C3 /* Platform.m */; };
 		A35BA099187CBAB9007EAC48 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A35BA098187CBAB9007EAC48 /* Cocoa.framework */; };
 		A35BA09B187CBAB9007EAC48 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A35BA09A187CBAB9007EAC48 /* SpriteKit.framework */; };
@@ -26,6 +36,7 @@
 		A3A93DB1187DBE380065772C /* Jumper.m in Sources */ = {isa = PBXBuildFile; fileRef = A3A93DB0187DBE380065772C /* Jumper.m */; };
 		A3C7F039188F2EE000CB72E9 /* Field-landscape.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A3C7F038188F2EE000CB72E9 /* Field-landscape.jpg */; };
 		A3C7F03B188F321D00CB72E9 /* aang_air_attack_by_senshisprite-d49amm9.gif in Resources */ = {isa = PBXBuildFile; fileRef = A3C7F03A188F321D00CB72E9 /* aang_air_attack_by_senshisprite-d49amm9.gif */; };
+		A3EB59F318A1E8D2004DA94D /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A3EB59F218A1E8D2004DA94D /* libz.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +50,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A324FD1518B19FFE00492059 /* LFCGzipUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFCGzipUtility.h; sourceTree = "<group>"; };
+		A324FD1618B19FFE00492059 /* LFCGzipUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFCGzipUtility.m; sourceTree = "<group>"; };
+		A324FD1718B19FFE00492059 /* JSTileMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSTileMap.h; sourceTree = "<group>"; };
+		A324FD1818B19FFE00492059 /* JSTileMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSTileMap.m; sourceTree = "<group>"; };
+		A324FD1B18B1A01200492059 /* level1.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = level1.tmx; sourceTree = "<group>"; };
+		A324FD1C18B1A01200492059 /* tileSet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tileSet.png; sourceTree = "<group>"; };
+		A324FD1D18B1A01200492059 /* tileSet@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tileSet@2x.png"; sourceTree = "<group>"; };
+		A324FD2118B1A11E00492059 /* koalio_stand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = koalio_stand.png; sourceTree = "<group>"; };
+		A324FD2218B1A11E00492059 /* koalio_stand@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "koalio_stand@2x.png"; sourceTree = "<group>"; };
+		A324FD2318B1A11E00492059 /* replay@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "replay@2x.png"; sourceTree = "<group>"; };
+		A324FD2418B1A11E00492059 /* replay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = replay.png; sourceTree = "<group>"; };
+		A324FD2518B1A11E00492059 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		A324FD2618B1A11E00492059 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		A324FD2C18B1A65E00492059 /* SKTUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTUtils.h; sourceTree = "<group>"; };
 		A356977C1885F0E3009EA4C3 /* Platform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Platform.h; sourceTree = "<group>"; };
 		A356977D1885F0E3009EA4C3 /* Platform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Platform.m; sourceTree = "<group>"; };
 		A35BA095187CBAB9007EAC48 /* JumpTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JumpTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -70,6 +95,7 @@
 		A3A93DB0187DBE380065772C /* Jumper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Jumper.m; sourceTree = "<group>"; };
 		A3C7F038188F2EE000CB72E9 /* Field-landscape.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Field-landscape.jpg"; sourceTree = "<group>"; };
 		A3C7F03A188F321D00CB72E9 /* aang_air_attack_by_senshisprite-d49amm9.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "aang_air_attack_by_senshisprite-d49amm9.gif"; sourceTree = "<group>"; };
+		A3EB59F218A1E8D2004DA94D /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +103,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3EB59F318A1E8D2004DA94D /* libz.dylib in Frameworks */,
 				A35BA09B187CBAB9007EAC48 /* SpriteKit.framework in Frameworks */,
 				A35BA099187CBAB9007EAC48 /* Cocoa.framework in Frameworks */,
 			);
@@ -94,9 +121,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A324FD1318B19FE100492059 /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				A324FD1B18B1A01200492059 /* level1.tmx */,
+				A324FD1C18B1A01200492059 /* tileSet.png */,
+				A324FD1D18B1A01200492059 /* tileSet@2x.png */,
+			);
+			name = Maps;
+			sourceTree = "<group>";
+		};
+		A324FD1418B19FF000492059 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				A324FD1518B19FFE00492059 /* LFCGzipUtility.h */,
+				A324FD1618B19FFE00492059 /* LFCGzipUtility.m */,
+				A324FD1718B19FFE00492059 /* JSTileMap.h */,
+				A324FD1818B19FFE00492059 /* JSTileMap.m */,
+				A324FD2C18B1A65E00492059 /* SKTUtils.h */,
+			);
+			name = Vendor;
+			sourceTree = "<group>";
+		};
 		A35BA08C187CBAB9007EAC48 = {
 			isa = PBXGroup;
 			children = (
+				A3EB59EC18A1DD46004DA94D /* Maps */,
 				A35BA0A0187CBAB9007EAC48 /* JumpTest */,
 				A35BA0C2187CBAB9007EAC48 /* JumpTestTests */,
 				A35BA097187CBAB9007EAC48 /* Frameworks */,
@@ -116,6 +166,7 @@
 		A35BA097187CBAB9007EAC48 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A3EB59F218A1E8D2004DA94D /* libz.dylib */,
 				A35BA098187CBAB9007EAC48 /* Cocoa.framework */,
 				A35BA09A187CBAB9007EAC48 /* SpriteKit.framework */,
 				A35BA0BD187CBAB9007EAC48 /* XCTest.framework */,
@@ -137,6 +188,8 @@
 		A35BA0A0187CBAB9007EAC48 /* JumpTest */ = {
 			isa = PBXGroup;
 			children = (
+				A324FD1418B19FF000492059 /* Vendor */,
+				A324FD1318B19FE100492059 /* Maps */,
 				A35BA0B3187CBAB9007EAC48 /* AppDelegate.h */,
 				A35BA0B1187CBAB9007EAC48 /* AppDelegate.m */,
 				A35BA0B6187CBAB9007EAC48 /* Images.xcassets */,
@@ -149,6 +202,12 @@
 				A35BA0AE187CBAB9007EAC48 /* MyScene.m */,
 				A356977C1885F0E3009EA4C3 /* Platform.h */,
 				A356977D1885F0E3009EA4C3 /* Platform.m */,
+				A324FD2118B1A11E00492059 /* koalio_stand.png */,
+				A324FD2218B1A11E00492059 /* koalio_stand@2x.png */,
+				A324FD2318B1A11E00492059 /* replay@2x.png */,
+				A324FD2418B1A11E00492059 /* replay.png */,
+				A324FD2518B1A11E00492059 /* Player.h */,
+				A324FD2618B1A11E00492059 /* Player.m */,
 				A35BA0B4187CBAB9007EAC48 /* Spaceship.png */,
 				A35BA0A1187CBAB9007EAC48 /* Supporting Files */,
 				A36EF7F71898685B00C20B02 /* Constants.h */,
@@ -185,6 +244,13 @@
 				A35BA0C5187CBAB9007EAC48 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A3EB59EC18A1DD46004DA94D /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Maps;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,11 +329,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				A3C7F039188F2EE000CB72E9 /* Field-landscape.jpg in Resources */,
+				A324FD2918B1A11E00492059 /* replay@2x.png in Resources */,
 				A3C7F03B188F321D00CB72E9 /* aang_air_attack_by_senshisprite-d49amm9.gif in Resources */,
+				A324FD1E18B1A01200492059 /* level1.tmx in Resources */,
+				A324FD2A18B1A11E00492059 /* replay.png in Resources */,
+				A324FD2718B1A11E00492059 /* koalio_stand.png in Resources */,
+				A324FD2018B1A01200492059 /* tileSet@2x.png in Resources */,
 				A35BA0B5187CBAB9007EAC48 /* Spaceship.png in Resources */,
 				A35BA0B7187CBAB9007EAC48 /* Images.xcassets in Resources */,
 				A35BA0A5187CBAB9007EAC48 /* InfoPlist.strings in Resources */,
+				A324FD2818B1A11E00492059 /* koalio_stand@2x.png in Resources */,
 				A35BA0AB187CBAB9007EAC48 /* Credits.rtf in Resources */,
+				A324FD1F18B1A01200492059 /* tileSet.png in Resources */,
 				A35BA0AD187CBAB9007EAC48 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -291,8 +364,11 @@
 				A35BA0A7187CBAB9007EAC48 /* main.m in Sources */,
 				A3A93DB1187DBE380065772C /* Jumper.m in Sources */,
 				A35BA0B2187CBAB9007EAC48 /* AppDelegate.m in Sources */,
+				A324FD1918B19FFE00492059 /* LFCGzipUtility.m in Sources */,
 				A356977E1885F0E3009EA4C3 /* Platform.m in Sources */,
 				A36EF7F91898685B00C20B02 /* Constants.m in Sources */,
+				A324FD2B18B1A11E00492059 /* Player.m in Sources */,
+				A324FD1A18B19FFE00492059 /* JSTileMap.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,7 +490,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				COMBINE_HIDPI_IMAGES = YES;
+				COMBINE_HIDPI_IMAGES = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JumpTest/JumpTest-Prefix.pch";
 				INFOPLIST_FILE = "JumpTest/JumpTest-Info.plist";
@@ -428,7 +504,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				COMBINE_HIDPI_IMAGES = YES;
+				COMBINE_HIDPI_IMAGES = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JumpTest/JumpTest-Prefix.pch";
 				INFOPLIST_FILE = "JumpTest/JumpTest-Info.plist";
